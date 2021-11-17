@@ -18,7 +18,7 @@ spec:
         - cluster.local/ns/kubeflow/sa/ml-pipeline-viewer-crd-service-account
         - cluster.local/ns/kubeflow/sa/kubeflow-pipelines-cache
         - cluster.local/ns/kubeflow/sa/metadata-grpc-server
-
+        - cluster.local/ns/default/sa/bookinfo-productpage
 ---
 
 apiVersion: "networking.istio.io/v1alpha3"
